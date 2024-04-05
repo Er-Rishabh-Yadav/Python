@@ -4,12 +4,12 @@ sys.path.append('../FileHandling')
 import CSV_Wrapper
 
 # Snowflake account information
-account = 'kha80474'
-username = 'Rishabh'
-password = 'Snowflake@6308'
+account = 'your_account'
+username = 'your_username'
+password = 'your_password'
 warehouse = 'your_warehouse'
-database = 'INTERNAL_TRAINING'
-schema = 'S3_LOAD_TEXAS_ORDER'
+database = 'your_database'
+schema = 'your_schema'
 
 # Establish a connection to Snowflake
 conn = snowflake.connector.connect(
