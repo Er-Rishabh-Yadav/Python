@@ -2,13 +2,13 @@ import pandas as pd
 import snowflake.connector
 
 # Snowflake connection parameters
-snowflake_user = 'Rishabh'
-snowflake_password = 'Snowflake@6308'
-snowflake_account = 'kha80474'
-snowflake_database = 'INTERNAL_TRAINING'
-snowflake_schema = 'ASSIGNMENT_2'
-snowflake_warehouse = 'COMPUTE_WH'
-snowflake_table = 'weather_data_table'
+snowflake_user = 'your_username'
+snowflake_password = 'your_password'
+snowflake_account = 'your_account'
+snowflake_database = 'your_database'
+snowflake_schema = 'your_scheman'
+snowflake_warehouse = 'your_warehouse'
+snowflake_table = 'your_table'
 
 # Load CSV data into a DataFrame
 csv_filename = r'Assignment2\weather_data.csv'
